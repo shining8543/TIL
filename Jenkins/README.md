@@ -2,7 +2,7 @@
 
 
 ## 흐름
-![이미지](Jenkins/img/sequence.png)
+![이미지](https://github.com/shining8543/TIL/blob/5266d53f6b4fb811ef963238895256542852455e/Jenkins/img/sequence.png)
 
 --------
 
