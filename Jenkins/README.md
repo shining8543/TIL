@@ -33,7 +33,8 @@ Settings - Developer Settings - Personal Access Tokens - Generate new Token
 ```
 User Settings - Access Token - [api] 체크 - Create personal Access Token
 ```
-- 위에서 생성된 토크 복사
+- 위에서 생성된 토크 복사 (Private인 프로젝트는 위의 토큰이 반드시 필요)
+
 
 - Dashboard - Manager Jenkins - Configure System - GitLab 설정
 ```
