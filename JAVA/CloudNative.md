@@ -46,3 +46,37 @@
     - 인프라는 구축되어 있는 상태에서 서비스를 개발 또는 운영할 수 있는 플랫폼을 제공하는 것
 - SaaS
     - 플랫폼 위 서비스나 애플리케이션도 제공해서 사용자로부터 이용할 수 있게 해주는 것
+
+
+## Monolithic vs MSA
+### Monolithic
+- 모든 업무 로직이 하나의 애플리케이션 형태로 패키지 된 서비스
+- 애플리케이션에서 사용하는 데이터가 한 곳에 모여 참조되어 서비스되는 형태
+- 모든 서비스의 기능이 하나의 어플리케이션에서 유기적으로 연결되어 작동하고 배포되기 위해 서로의 의존성을 가지게 되어 패키징 됨
+
+### Microserivce
+- 어플리케이션의 각각의 구성 요소 및 서비스를 분리해서 운영하는 방식
+- 유지 보수나 변경 사항을 적용하기 쉬움
+- 함께 작동하는 작은 규모의 서비스들
+
+![구조](https://user-images.githubusercontent.com/43779730/156955636-7eb2c87d-8902-45b6-844f-98a072922c95.png)
+
+![구조2](https://user-images.githubusercontent.com/43779730/156956007-4c271b13-cb70-46c5-b81b-00175af6cfef.png)
+
+
+
+## Microservice Architecture
+
+- Cloud 기반의 대표적인 서비스
+    ![MSA예시](https://user-images.githubusercontent.com/43779730/156956245-3af7b7cd-cd7e-4325-86b6-5083d53023fd.png)
+
+- Microserivce의 특징
+    - Challenges
+    - Small Well Chosen Deployable Units
+    - Bounded Context
+    - RESTful
+    - Configuration Management
+    - Cloud Enabled
+    - Dynamic Scale Up and Scale Down
+    - CI/CD
+    - Visibility
