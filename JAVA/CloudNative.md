@@ -80,3 +80,40 @@
     - Dynamic Scale Up and Scale Down
     - CI/CD
     - Visibility
+
+## SOA vs MSA
+- 서비스의 공유 지향점
+    - SOA : 재사용을 통한 비용 절감
+    - MSA : 서비스 간의 결합도를 낮추어 변화에 능동적으로 대응
+    ![MSASOA](https://user-images.githubusercontent.com/43779730/157148040-ba5db443-ad84-4ae1-9048-bb902438dda6.png)
+- 기술 방식
+    - SOA : 공통의 서비스를 ESB에 모아 사업 측면에서 공통 서비스 형식으로 서비스 제공
+    - MSA : 각 독립된 서비스가 노출된 REST API를 사용
+    ![MSASOA2](https://user-images.githubusercontent.com/43779730/157149460-ff203d78-f83c-4be8-a69e-2a9e34c599c1.png)
+
+
+## Service Mesh Capabilities
+- Service Mesh : MSA 적용한 시스템의 내부 통신을 의미
+- MSA 인프라 -> 미들웨어
+    - 프록시 역할, 인증, 권한 부여, 암호화, 서비스 검색, 요청 라우팅, 로드 밸런싱
+    - 자가 치유 복구 서비스
+- 서비스간의 통신과 관련된 기능을 자동화
+
+## Spring Cloud
+- 개발, 배포, 운영에 필요한 아키텍쳐를 쉽게 구성할 수 있도록 지원하는 Spring Boot 기반의 프레임워크
+- Centralized Configuration Management(중앙화된 설정 관리)
+    - 서비스의 재빌드,부팅 없이 설정사항을 반영
+    - Spring Cloud Config Server
+- Location Transparency(위치 투명성)
+    - Naming Server(Eureka)
+- Load Distribution (Load Balancing)
+    - 서비스 간 부하 분산
+    - Ribbon (Client Side)
+    - Spring Cloud Gateway ->  최신 버전에선 이것을 권장
+- Easier REST Clients
+    - FeignClient
+- Visibility and Monitoring
+    - Zipkin Distributed Tracing
+    - Netflix API gateway
+- Fault Tolerance (결함 허용)
+    - Hystrix
