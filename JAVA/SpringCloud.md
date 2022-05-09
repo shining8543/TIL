@@ -46,4 +46,12 @@
 - 라우팅 처리
 - Spring Boot 2.4에서 maintenance 상태
 
+
+### Spring Cloud Gateway
+- Filter 를 통해 인증/인가 처리를 할 수 있음
+- 라우팅 처리
+- 요청과 응답에 대한 Logging 처리 가능
+- Tomcat 대신 Netty 서버를 사용 (비동기)
+
+
 참고 : [Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA)](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4/dashboard)
